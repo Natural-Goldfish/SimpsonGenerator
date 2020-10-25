@@ -4,16 +4,6 @@ from src.utils import save_images
 from torch.utils.data import DataLoader
 import torch
 
-_MODEL_PATH = "data\\models"
-_GENERATOR_LOAD_NAME = "{}_{}_checkpoint.pth".format("generator", "epoch")
-_DISCRIMINATOR_LOAD_NAME = "{}_{}_checkpoint.pth".format("discriminator", "epoch")
-_MODEL_LOAD_FLAG = False
-_SAVE_IMAGE_PATH = "data\\generated_images"
-
-_EPOCH = 400
-_BATCH_SIZE = 64
-_LEARNING_RATE = 0.0002
-_BETAS = (0.5, 0.999)
 _CUDA_FLAG = torch.cuda.is_available()
 
 def train(args):
