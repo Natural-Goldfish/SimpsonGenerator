@@ -7,6 +7,7 @@ _MEAN = (0.5, 0.5, 0.5)
 _STD = (0.5, 0.5, 0.5)
 _WIDTH = 64
 _HEIGHT = 64
+
 class Transforms(object):
     def __init__(self, functions):
         self.function_list = functions

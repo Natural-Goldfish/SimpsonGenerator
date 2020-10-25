@@ -16,10 +16,9 @@ _LEARNING_RATE = 0.0002
 _BETAS = (0.5, 0.999)
 _CUDA_FLAG = torch.cuda.is_available()
 
-def train():
-    dataset = SimpsonDataset()
-    dataloader = DataLoader(dataset, batch_size = _BATCH_SIZE, shuffle = True)
-
+def train(args):
+    dataset = SimpsonDataset(args.image_path)
+    dataloader = DataLoader(dataset, batch_size = args.batch_size, shuffle = True)
 
     latent_space = Z_Generator()
     generator = Generator()
@@ -30,9 +29,9 @@ def train():
     discriminator.apply(weights_init)
 
     # Load models
-    if _MODEL_LOAD_FLAG :
-        generator.load_state_dict(torch.load(os.path.join(_MODEL_PATH, _GENERATOR_NAME)))
-        discriminator.load_state_dict(torch.load(os.path.join(_MODEL_PATH, _DISCRIMINATOR_NAME)))
+    if args.model_load_flag :
+        generator.load_state_dict(torch.load(os.path.join(args.model_path, args.generator_load_name)))
+        discriminator.load_state_dict(torch.load(os.path.join(args.model_path, args.discriminator_load_name)))
 
     # Use GPU, if it's available
     if _CUDA_FLAG :
@@ -44,13 +43,13 @@ def train():
     d_criterion = torch.nn.BCELoss()
 
     # Optimizer
-    g_optimizer = torch.optim.Adam(generator.parameters(), lr = _LEARNING_RATE, betas = _BETAS)
-    d_optimizer = torch.optim.Adam(discriminator.parameters(), lr = _LEARNING_RATE, betas = _BETAS)
+    g_optimizer = torch.optim.Adam(generator.parameters(), lr = args.learning_rate, betas = args.betas)
+    d_optimizer = torch.optim.Adam(discriminator.parameters(), lr = args.learning_rate, betas = args.betas)
 
-    # Train
-    generator.train()
-    discriminator.train()
-    for cur_epoch in range(_EPOCH):
+    for cur_epoch in range(args.epoch):
+        # Train
+        generator.train()
+        discriminator.train()
         for cur_batch_num, images in enumerate(dataloader):
             if _CUDA_FLAG : images = images.cuda()
             g_optimizer.zero_grad()
@@ -97,21 +96,19 @@ def train():
             g_optimizer.step()
 
             print("EPOCH {}/{} Iter {}/{} D TLoss {:.6f} FLoss {:.6f} TotalLoss {:.6f} G TotalLoss {:.6f}".format(\
-                cur_epoch, _EPOCH, cur_batch_num+1, len(dataloader), d_tloss, d_floss, d_total_loss, g_loss))
+                cur_epoch, args.epoch, cur_batch_num+1, len(dataloader), d_tloss, d_floss, d_total_loss, g_loss))
+        if cur_epoch % 30 == 29 :
+            with torch.no_grad():
+                generator.eval()
+                # Save several images which are generated from generator model
+                generator.cpu()
+                latent_vectors = latent_space(20)
+                test_images = generator(latent_vectors)
+                save_images(test_images.numpy(), args.image_save_path, cur_epoch)
 
-        with torch.no_grad():
-            # Save several images which are generated from generator model
-            generator.cpu()
-            latent_vectors = latent_space(20)
-            test_images = generator(latent_vectors)
-            save_images(test_images.numpy(), _SAVE_IMAGE_PATH, cur_epoch)
-            generator.cuda()
-
-            # Save model's parameters
-            generator_save_name = "generator_{}_checkpoint.pth".format(cur_epoch)
-            discriminator_save_name = "discriminator_{}_checkpoint.pth".format(cur_epoch)
-            torch.save(generator.state_dict(), os.path.join(_MODEL_PATH, generator_save_name))
-            torch.save(discriminator.state_dict(), os.path.join(_MODEL_PATH, discriminator_save_name))
-
-if __name__ == "__main__":
-    train()
+                # Save model's parameters    
+                generator_save_name = "generator_{}_checkpoint.pth".format(cur_epoch)
+                discriminator_save_name = "discriminator_{}_checkpoint.pth".format(cur_epoch)
+                torch.save(generator.state_dict(), os.path.join(args.model_path, generator_save_name))
+                torch.save(discriminator.state_dict(), os.path.join(args.model_path, discriminator_save_name))
+                generator.cuda()
