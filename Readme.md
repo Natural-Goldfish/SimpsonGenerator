@@ -55,7 +55,7 @@ At the beginning, I wanted to generate face images which I am able to change the
 # Dataset  
 I used _"Simpsons Faces"_ dataset in Kaggle. If you search it, you can download it easily.
 
-```  </br></br>
+```
     Dataset
     ├──cropped
     │   ├──1.png
@@ -83,9 +83,14 @@ I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning 
 I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
 I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```  </br></br>
 - If you want to train this model from beginning, you could run :  
-```python main.py --mode train```  </br></br>
+```
+python main.py --mode train
+```  
+</br></br>
 - If you want to train pre-trained model, you could run :  
-``` python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}```
+``` 
+python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}
+```
 
 # Test  
 You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
