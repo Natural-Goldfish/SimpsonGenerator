@@ -1,7 +1,11 @@
 # Introduction  
 At the beginning, I wanted to generate face images which I am able to change the facial attributes as a "Capstone Design 1" subject's goal. 
     But I didn't have enough knowledge about generative model to achieve the goal.
-    That's why I started this project. I made this 'Simpson Generator' using DC-GAN, in order to understand how GAN works and to check whether I understand that or not.
+    That's why I started this project. I made this 'Simpson Generator' using DC-GAN, in order to understand how GAN works and to check whether I understand that or not.  
+    ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/1.png?raw=true)
+    ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/6.png?raw=true)
+    ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/3.png?raw=true)
+    ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/4.png?raw=true)
 </br></br>
 # How to use my code  
 - In order to use my code, just follow this :  
