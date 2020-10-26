@@ -1,7 +1,7 @@
 # Introduction  
-At the beginning, I wanted to generate face images which I am able to change the facial attributes. So I started to research as a "Capstone Design 1" subject's goal. 
-    But I didn't have any knowledge about GAN and I didn't have enough resources to train Style-GAN which are considered as a base-model.
-    In order to get knowledge about how GAN works and to check whether I understand that or not, I made this 'Simpson Generator' using DC-GAN.
+At the beginning, I wanted to generate face images which I am able to change the facial attributes as a "Capstone Design 1" subject's goal. 
+    But I didn't have enough knowledge about generative model to achieve the goal.
+    That's why I started this project. In order to understand how GAN works and to check whether I understand that or not, I made this 'Simpson Generator' using DC-GAN.
 
 # How to use my code  
 - In order to use my code, just follow this :  
