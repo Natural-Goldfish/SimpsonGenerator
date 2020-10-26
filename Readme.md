@@ -6,23 +6,23 @@ At the beginning, I wanted to generate face images which I am able to change the
 # How to use my code  
 - In order to use my code, just follow this :  
 ```
-git clone -b master https://github.com/Natural-Goldfish/SimpsonGenerator.git  
-cd SimpsonGenerator\\SimpsonGenerator
-python main.py --mode {}
+    git clone -b master https://github.com/Natural-Goldfish/SimpsonGenerator.git  
+    cd SimpsonGenerator\\SimpsonGenerator
+    python main.py --mode {}
 ```
 **❗ You must choose wihch mode you will run between _'train' or 'test'_.**</br></br>
 
 - For more specific information how to run my code, you could run :
 ```
-python main.py -h
+    python main.py -h
 ```
 
 # Requirements
 ```
-- python 3.7.1
-- pytorch 1.6.0
-- opencv 4.4.0
-- numpy 1.15.4
+    - python 3.7.1
+    - pytorch 1.6.0
+    - opencv 4.4.0
+    - numpy 1.15.4
 ```
 
 # Project Structure  
@@ -82,18 +82,18 @@ I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning 
 I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
 I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```  </br></br>
 - If you want to train this model from beginning, you could run :  
-```python main.py --mode train```  </br></br>
+``` python main.py --mode train```  </br></br>
 - If you want to train pre-trained model, you could run :  
-```python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}```
+``` python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}```
 
 # Test  
 You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
 - Just run :  
-```python main.py --mode test```  </br></br>
+``` python main.py --mode test```  </br></br>
 - Also you can choice the number of images to generate by changing _**'--generate_numbers'**_, you could run :  
-```python main.py --mode test --generate_numbers {}```  </br></br>
+``` python main.py --mode test --generate_numbers {}```  </br></br>
 - If you want to change the directory as well, you could run :  
-```python main.py --mode test --generating_model_name {} --image_save_path {} --generate_numbers {}```
+``` python main.py --mode test --generating_model_name {} --image_save_path {} --generate_numbers {}```
 
 # Results  
 Some generated images are shown below :
