@@ -74,7 +74,7 @@ I used  _"[Simpsons Faces](https://www.kaggle.com/kostastokis/simpsons-faces)"_ 
         └──...  
 ```  
 
-In this project, the cropped images are only used and those images are put into ``` 'data\images' ```
+In this project, the cropped images are only used and those images are put into _``` 'data\images' ```_
 These are cropped images, so you don't need to additional working to make a dataset for training.</br></br>
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/1.png' width = "200px" height = "200px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/4.png' width = "200px" height = "200px"/>
@@ -94,7 +94,7 @@ I used _```Adam optimizer```_ with the β1 and β2 of default values. _```Learni
 # Train  
 - **Data Argumentation**</br></br>
 I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
-I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```</br></br>
+I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in _```'data\models'```_</br></br>
 - If you want to train this model from beginning, you could run :  
 ```
 python main.py --mode train
@@ -106,7 +106,7 @@ python main.py --mode train --model_load_flag --generator_load_name {} --discrim
 </br></br>
 
 # Test  
-You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
+You can generate images using pre-trained model, which are saved in _```'data\generated_images'```_  
 - If you want to see a generated image which pre-trained model make, just run :  
 ``` 
 python main.py --mode test
