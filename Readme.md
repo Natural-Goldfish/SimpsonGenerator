@@ -10,7 +10,7 @@ git clone -b master https://github.com/Natural-Goldfish/SimpsonGenerator.git
 cd SimpsonGenerator\\SimpsonGenerator
 python main.py --mode {}
 ```
-**❗ You must choose wihch mode you will run between __'train' or 'test'__.**</br></br>
+**❗ You must choose wihch mode you will run between _'train' or 'test'_.**</br></br>
 
 - For more specific information how to run my code, you could run :
 ```
