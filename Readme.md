@@ -118,9 +118,8 @@ python main.py --mode test --generating_model_name {} --image_save_path {} --gen
 
 # Results  
 Some generated images are shown below :</br></br>
-![Simpson Image](https://github.com/Natural-Goldfish/SimpsonGenerator/tree/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg?raw=true)  
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg?raw=true)
 
-<div>
-<img width="200" src="https://github.com/Natural-Goldfish/SimpsonGenerator/tree/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg">
-<img width="200" src="https://github.com/Natural-Goldfish/SimpsonGenerator/tree/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg">
-</div>
+
