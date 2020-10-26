@@ -86,7 +86,6 @@ I trained the model for _400 epochs_ about the dataset by _64 batch size_. You c
 ```
 python main.py --mode train
 ```  
-</br></br>
 - If you want to train pre-trained model, you could run :  
 ``` 
 python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}
