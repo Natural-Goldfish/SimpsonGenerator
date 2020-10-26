@@ -121,5 +121,13 @@ Some generated images are shown below :</br></br>
 ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg?raw=true)
 ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg?raw=true)
 ![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img5.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img6.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img7.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img8.jpg?raw=true)
+![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img9.jpg?raw=true)
+
 
 
