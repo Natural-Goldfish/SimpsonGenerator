@@ -10,7 +10,7 @@ git clone -b master https://github.com/Natural-Goldfish/SimpsonGenerator.git
 cd SimpsonGenerator\\SimpsonGenerator
 python main.py --mode {}
 ```
-**❗ You must choose wihch mode you will run between 'train' or 'test'.**</br></br>
+**❗ You must choose wihch mode you will run between __'train' or 'test'__.**</br></br>
 
 - For more specific information how to run my code, you could run :
 ```
@@ -89,7 +89,7 @@ I trained the model for 400 epochs about the dataset by 64 batch size. You can f
 You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
 - Just run :  
 ```python main.py --mode test```  </br></br>
-- Also you can choice the number of images to generate by changing '--generate_numbers', you could run :  
+- Also you can choice the number of images to generate by changing **'--generate_numbers'**, you could run :  
 ```python main.py --mode test --generate_numbers {}```  </br></br>
 - If you want to change the directory as well, you could run :  
 ```python main.py --mode test --generating_model_name {} --image_save_path {} --generate_numbers {}```
