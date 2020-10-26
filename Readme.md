@@ -10,11 +10,12 @@ At the beginning, I wanted to generate face images which I am able to change the
 ```
 ```
     cd SimpsonGenerator\\SimpsonGenerator
-```
+```  
+**❗ You must choose wihch mode you will run between _'train' or 'test'_.**
 ```
     python main.py --mode {}
 ```
-**❗ You must choose wihch mode you will run between _'train' or 'test'_.**</br></br>
+
 
 - For more specific information how to run my code, you could run :
 ```  
