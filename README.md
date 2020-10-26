@@ -31,6 +31,7 @@ At the beginning, I wanted to generate face images which I am able to change the
 </br></br>
 
 # Project Structure  
+This show how my project files stored.   
 ```
     SimpsonGenerator
     ├──data
@@ -59,7 +60,7 @@ At the beginning, I wanted to generate face images which I am able to change the
 </br></br>
 
 # Dataset  
-I used _"Simpsons Faces"_ dataset in Kaggle. If you search it, you can download it easily.
+I used  _"[Simpsons Faces](https://www.kaggle.com/kostastokis/simpsons-faces)"_ dataset in Kaggle. The dataset structure looks like below :  
 
 ```
     Dataset
@@ -75,10 +76,10 @@ I used _"Simpsons Faces"_ dataset in Kaggle. If you search it, you can download 
 
 In this project, the cropped images are only used and those images are put into ``` 'data\images' ```
 These are cropped images, so you don't need to additional working to make a dataset for training.</br></br>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/1.png' align = 'center'/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/4.png' align = 'center'/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/3.png' align = 'center'/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/14.png' align = 'center'/>
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/1.png' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/4.png' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/3.png' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/14.png' width = "200px" height = "200px"/></p>
 </br></br>
 
 # Settings  
@@ -122,16 +123,15 @@ python main.py --mode test --generating_model_name {} --image_save_path {} --gen
 
 # Results  
 Some generated images are shown below :</br></br>
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img5.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img6.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img7.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img8.jpg?raw=true)
-![](https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img9.jpg?raw=true)
-
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img5.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img6.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img7.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img8.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img9.jpg" width = "100px" height = "100px"/></p>
 
 
