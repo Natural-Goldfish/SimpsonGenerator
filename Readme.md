@@ -15,12 +15,12 @@ At the beginning, I wanted to generate face images which I am able to change the
 ```
     python main.py --mode {}
 ```
-</br></br>
 - For more specific information how to run my code, you could run :
 ```  
     python main.py -h  
 ```
 </br></br>
+
 # Requirements
 ```  
     - python 3.7.1
@@ -29,6 +29,7 @@ At the beginning, I wanted to generate face images which I am able to change the
     - numpy 1.15.4  
 ```
 </br></br>
+
 # Project Structure  
 ```
     SimpsonGenerator
@@ -56,6 +57,7 @@ At the beginning, I wanted to generate face images which I am able to change the
     └──test.py  
 ```
 </br></br>
+
 # Dataset  
 I used _"Simpsons Faces"_ dataset in Kaggle. If you search it, you can download it easily.
 
@@ -103,17 +105,15 @@ You can generate images using pre-trained model, which are saved in ```'data\gen
 - Just run :  
 ``` 
 python main.py --mode test
-```
-</br></br>
+```  
 - Also you can choice the number of images to generate by changing _**'--generate_numbers'**_, you could run :  
 ``` 
 python main.py --mode test --generate_numbers {}
-```
-</br></br>
+```  
 - If you want to change the directory as well, you could run :  
 ``` 
 python main.py --mode test --generating_model_name {} --image_save_path {} --generate_numbers {}
-```
+```  
 </br></br>
 
 # Results  
