@@ -22,7 +22,7 @@ At the beginning, I wanted to generate face images which I am able to change the
 </br></br>
 
 # Requirements
-```  
+```
     - python 3.7.1
     - pytorch 1.6.0
     - opencv 4.4.0
@@ -81,9 +81,9 @@ These are cropped images, so you don't need to additional working to make a data
 - **Model Structure**</br></br>
 I followed DC-GAN paper's model architecture</br></br>
 - **Loss**</br></br>
-I used ```BCELoss``` in pytorch</br></br>
+I used _```BCELoss```_ in pytorch</br></br>
 - **Optimizer**</br></br>
-I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning rate 2e-4```
+I used _```Adam optimizer```_ with the β1 and β2 of default values. _```Learning rate : 2e-4```_
 </br></br>
 
 # Train  
