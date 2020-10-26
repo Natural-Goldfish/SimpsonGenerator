@@ -78,11 +78,11 @@ These are cropped images, so you don't need to additional working to make a data
 </br></br>
 
 # Settings  
-- **Model Structure**  
+- **Model Structure**</br></br>
 I followed DC-GAN paper's model architecture</br></br>
-- **Loss**  
+- **Loss**</br></br>
 I used ```BCELoss``` in pytorch</br></br>
-- **Optimizer**  
+- **Optimizer**</br></br>
 I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning rate 2e-4```
 </br></br>
 
