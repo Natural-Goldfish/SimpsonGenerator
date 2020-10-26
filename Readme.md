@@ -102,7 +102,7 @@ python main.py --mode train --model_load_flag --generator_load_name {} --discrim
 
 # Test  
 You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
-- Just run :  
+- If you want to see a generated image which pre-trained model make, just run :  
 ``` 
 python main.py --mode test
 ```  
