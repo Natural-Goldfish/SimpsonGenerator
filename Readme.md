@@ -25,7 +25,7 @@ python main.py -h
 - numpy 1.15.4
 ```
 
-# Project Structure
+# Project Structure  
     SimpsonGenerator
     ├──data
     │   ├──generated_images
@@ -48,7 +48,8 @@ python main.py -h
     ├──__init__.py
     ├──main.py
     ├──training.py
-    └──test.py
+    └──test.py  
+
 
 # Dataset  
 I used _"Simpsons Faces"_ dataset in Kaggle. If you search it, you can download it easily.
