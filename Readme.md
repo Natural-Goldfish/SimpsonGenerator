@@ -78,7 +78,7 @@ I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning 
 
 # Train  
 - **Data Argumentation**  
-I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip_ with random probability
+I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
 I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```  </br></br>
 - If you want to train this model from beginning, you could run :  
 ```python main.py --mode train```  </br></br>
@@ -89,7 +89,7 @@ I trained the model for _400 epochs_ about the dataset by _64 batch size_. You c
 You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
 - Just run :  
 ```python main.py --mode test```  </br></br>
-- Also you can choice the number of images to generate by changing **'--generate_numbers'**, you could run :  
+- Also you can choice the number of images to generate by changing _**'--generate_numbers'**_, you could run :  
 ```python main.py --mode test --generate_numbers {}```  </br></br>
 - If you want to change the directory as well, you could run :  
 ```python main.py --mode test --generating_model_name {} --image_save_path {} --generate_numbers {}```
