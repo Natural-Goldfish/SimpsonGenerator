@@ -7,7 +7,11 @@ At the beginning, I wanted to generate face images which I am able to change the
 - In order to use my code, just follow this :  
 ```
     git clone -b master https://github.com/Natural-Goldfish/SimpsonGenerator.git  
+```
+```
     cd SimpsonGenerator\\SimpsonGenerator
+```
+```
     python main.py --mode {}
 ```
 **❗ You must choose wihch mode you will run between _'train' or 'test'_.**</br></br>
@@ -79,13 +83,13 @@ I used ```BCELoss``` in pytorch</br></br>
 I used ```Adam optimizer``` with the β1 and β2 of default values. ```Learning rate 2e-4```
 
 # Train  
-- **Data Argumentation**  
+- **Data Argumentation**</br></br>
 I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
-I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```  </br></br>
+I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in ```'data\models'```</br></br>
 - If you want to train this model from beginning, you could run :  
 ```
 python main.py --mode train
-```  
+```
 - If you want to train pre-trained model, you could run :  
 ``` 
 python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}
