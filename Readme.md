@@ -86,7 +86,7 @@ I trained the model for 400 epochs about the dataset by 64 batch size. You can f
 ```python main.py --mode train --model_load_flag --generator_load_name {} --discriminator_load_name {}```
 
 # Test  
-You can generate images using pre-trained model, which are saved in 'data\generated_images'!  
+You can generate images using pre-trained model, which are saved in ```'data\generated_images'```  
 - Just run :  
 ```python main.py --mode test```  </br></br>
 - Also you can choice the number of images to generate by changing '--generate_numbers', you could run :  
