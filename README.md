@@ -96,10 +96,10 @@ I performed data argumentation to make model more stable and to complement the s
 # Train  
 I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in _```'data\models'```_  
 The update cycle of disciminator model for each batch size is a little bit changed comapred to the paper.  
-| Epoch | Discriminator | Generator |  
-|---|---|---|
-| 0 ~ 50 | 2 | 1 |
-| 50 ~ end | 1 | 1|  
+| Epoch | Discriminator : Generator |  
+|:---:|:---:|
+| 0 ~ 50 | 1 : 2 |
+| 50 ~ end | 1 : 1|  
 - If you want to train this model from beginning, you could run :  
 ```
 python main.py --mode train
