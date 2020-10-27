@@ -86,14 +86,14 @@ These are cropped images, so you don't need to additional working to make a data
 - **Model Structure**</br></br>
 I followed DC-GAN paper's model architecture</br></br>
 - **Loss**</br></br>
-I used _```BCELoss```_ in pytorch</br></br>
+I used _BCELoss_ in pytorch</br></br>
 - **Optimizer**</br></br>
-I used _```Adam optimizer```_ with the β1 and β2 of default values. _```Learning rate : 2e-4```_
+I used _Adam optimizer_ with the β1 and β2 of default values. _Learning rate : 2e-4_</br></br>
+- **Data Argumentation**</br></br>
+I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
 </br></br>
 
 # Train  
-- **Data Argumentation**</br></br>
-I performed data argumentation to make model more stable and to complement the small dataset. Techniques applied here are _resize_, _normalization_, _horizontal flip with random probability_.
 I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in _```'data\models'```_</br></br>
 - If you want to train this model from beginning, you could run :  
 ```
