@@ -74,7 +74,7 @@ I used  _"[Simpsons Faces](https://www.kaggle.com/kostastokis/simpsons-faces)"_ 
         └──...  
 ```  
 
-In this project, the cropped images are only used and are put into _``` 'data\images' ```_
+In this project, only the cropped images are used and are put into _``` 'data\images' ```_
 These are cropped images, so you don't need to additional working to make a dataset for training.</br></br>
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/1.png' width = "200px" height = "200px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/images/4.png' width = "200px" height = "200px"/>
