@@ -31,7 +31,7 @@ At the beginning, I wanted to generate face images which I am able to change the
 </br></br>
 
 # Project Structure  
-This show how my project files stored.   
+This show how my project files stored. The structure looks like below :  
 ```
     SimpsonGenerator
     ├──data
