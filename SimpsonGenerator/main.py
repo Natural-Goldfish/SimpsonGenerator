@@ -22,7 +22,7 @@ def get_args():
         help = "When you want to keep training your model, set True. If it's True, you must write the name of the model you are going to load")
     parser.add_argument('--generator_load_name', required= False, default = "generator_399_checkpoint.pth",\
         help = "When the 'model_load_flag' is True, This is required to load generator model to train continuously")       
-    parser.add_argument('--discriminator_load_name', required= False, default = "temp",\
+    parser.add_argument('--discriminator_load_name', required= False, default = "discriminator_399_checkpoint.pth",\
         help = "When the 'model_load_flag' is True, This is required to load discriminator model to train continuously")
 
     # For generating
