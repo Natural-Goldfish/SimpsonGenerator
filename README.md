@@ -94,12 +94,27 @@ I performed data argumentation to make model more stable and to complement the s
 </br></br>
 
 # Train  
-I trained the model for _400 epochs_ about the dataset by _64 batch size_. You can find this pre-trained model's parameter file in _```'data\models'```_  
-The update cycle of disciminator model for each batch size is a little bit changed comapred to the paper.  
-| Epoch | Discriminator : Generator |  
+I trained two models for _400 epochs_ about the dataset by _64 batch size_ with the different update cycle of discriminator for each bacth size. I changed it a little bit to see which one is better, because the loss was so unstable when I just follow the paper. The loss curves are shown below :  
+- **Model A**  
+
+| Epoch | Discriminator : Generator |
+|:---:|:---:|
+| 0 ~ End | 1 : 1 |  
+
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/Loss-400%20epoch%2011.PNG?raw=true' width = "1000px" height = "400px"/></p>
+</br></br>
+
+- **Model B**  
+
+| Epoch | Discriminator : Generator |
 |:---:|:---:|
 | 0 ~ 50 | 1 : 2 |
-| 50 ~ end | 1 : 1|  
+| 50 ~ End | 1 : 1 |  
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/Loss-400%20epoch%2012.PNG?raw=true' width = "1000px" height = "400px"/></p>
+</br></br>
+
+Even the model B was better at the loss until the 50 epochs, but there weren't big differences in the generated images before and after the epoch. You can find the pre-trained B model's parameter file in _```'data\models'```_.  </br></br>
+
 - If you want to train this model from beginning, you could run :  
 ```
 python main.py --mode train
@@ -128,6 +143,7 @@ python main.py --mode test --generating_model_name {} --image_save_path {} --gen
 
 # Results  
 Some generated images are shown below :</br></br>
+- **Model B**  
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "100px" height = "100px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "100px" height = "100px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "100px" height = "100px"/>
