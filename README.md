@@ -145,27 +145,28 @@ python main.py --mode test --generating_model_name {} --image_save_path {} --gen
 Some generated images are shown below :</br></br>
 
 - **Model A**  
-<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-1.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-2.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-3.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-4.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-5.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-6.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-7.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-8.jpg?raw=true' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-9.jpg?raw=true' width = "100px" height = "100px"/></p>  
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-1.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-2.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-3.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-4.jpg?raw=true' width = "200px" height = "200px"/></p>  
+<p align="center">
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-5.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-6.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-7.jpg?raw=true' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-8.jpg?raw=true' width = "200px" height = "200px"/></p>  
 </br></br>
           
 - **Model B**  
-<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img5.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img6.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img7.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img8.jpg' width = "100px" height = "100px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img9.jpg" width = "100px" height = "100px"/></p>
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg' width = "200px" height = "200px"/></p>  
+<p align="center">
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img5.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img6.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img7.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img8.jpg' width = "200px" height = "200px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img9.jpg" width = "200px" height = "200px"/></p>
 
 
