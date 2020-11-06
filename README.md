@@ -113,7 +113,7 @@ I trained two models for _400 epochs_ about the dataset by _64 batch size_ with 
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/Loss-400%20epoch%2012.PNG?raw=true' width = "1000px" height = "400px"/></p>
 </br></br>
 
-Even the model B was better at the loss until the 50 epochs, but there weren't big differences in the generated images before and after the epoch. You can find the pre-trained B model's parameter file in _```'data\models'```_.  </br></br>
+Even the model B was better at the loss until the 50 epochs, but there weren't big differences in the generated images before and after the epoch. Considering the image size, I wouldn't have to choose it as 64 x 64 because of the computer resource. You can find the pre-trained B model's parameter file in _```'data\models'```_.  </br></br>
 
 - If you want to train this model from beginning, you could run :  
 ```
@@ -143,8 +143,22 @@ python main.py --mode test --generating_model_name {} --image_save_path {} --gen
 
 # Results  
 Some generated images are shown below :</br></br>
+
+- **Model A**  
+<p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-1.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-2.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-3.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-4.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-5.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-6.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-7.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-8.jpg?raw=true' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/README/A-9.jpg?raw=true' width = "100px" height = "100px"/></p>  
+</br></br>
+          
 - **Model B**  
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "100px" height = "100px"/>
+<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg' width = "100px" height = "100px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "100px" height = "100px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "100px" height = "100px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg' width = "100px" height = "100px"/>
