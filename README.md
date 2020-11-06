@@ -158,7 +158,6 @@ Some generated images are shown below :</br></br>
           
 - **Model B**  
 <p align="center"><img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img0.jpg' width = "200px" height = "200px"/>
-<img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img1.jpg' width = "200px" height = "200px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img2.jpg' width = "200px" height = "200px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img3.jpg' width = "200px" height = "200px"/>
 <img src='https://github.com/Natural-Goldfish/SimpsonGenerator/blob/master/SimpsonGenerator/data/generated_images/Generated_img4.jpg' width = "200px" height = "200px"/></p>  
